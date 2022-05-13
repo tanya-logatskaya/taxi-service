@@ -14,7 +14,7 @@ During the first launch you’re granted access to:
 - deleting manufacturers, cars, or drivers
 ---
 ### The diagram below represents connections, built inside this app
-![](src/main/resources/images/127296817-e1af8215-1819-49ed-ba0a-6526e71e6542.png)
+![](src/main/resources/images/db-relations.png)
 ### Implementation details
 
 #### Project is based on 3-layered architecture:
@@ -53,16 +53,16 @@ Warning!!! if you already have a database named "taxi", this script will delete 
    (Add New Configuration -> TomCat -> Local -> Fix -> taxi-service:war exploded -> OK)
 ---
 ### Login page:
-![](src/main/resources/images/548B2BDB-316D-49C3-B2DF-0A73915C87DE.png)
+![](src/main/resources/images/log-in-page.png)
 ### Registration page:
-![](src/main/resources/images/FEED2D6A-2CA8-43C5-91B1-B964185888BC.png)
+![](src/main/resources/images/register-page.png)
 ### Main menu:
-![](src/main/resources/images/468E6A65-13AB-4037-87C2-16352162DB6B.png)
+![](src/main/resources/images/main-page.png)
 ### After choosing to show all available cars you have an option to create a new car
-![](src/main/resources/images/14920C77-C592-4B5C-A744-364A9D9597BB.png)
+![](src/main/resources/images/all-cars-page.png)
 ### Here you can create new car, using existing manufacturers, or create a new manufacturer first
-![](src/main/resources/images/4E4B49B2-AF88-4B2E-A380-A623CB9754A1.png)
-![](src/main/resources/images/1F207E1A-4F2C-4B8A-AE8A-2A28C26DE11F.png)
+![](src/main/resources/images/add-car-page.png)
+![](src/main/resources/images/add-manufacturer-page.png)
 ### Now you can connect driver to a car and display cars, available for current driver
-![](src/main/resources/images/20514EBE-87FD-4E93-B16D-C90C0BDD5768.png)
-![](src/main/resources/images/9D1593A0-9E1F-45CB-BA60-5A3AE41EF6B0.png)
+![](src/main/resources/images/add-driver-to-car-page.png)
+![](src/main/resources/images/drivers-cars-page.png)
