@@ -39,7 +39,7 @@ public class CarServiceImpl implements CarService {
     @Override
     public Car get(Long id) {
         return carDao.get(id)
-                .orElseThrow(() -> new RuntimeException("Can't get driver bi id: " + id));
+                .orElseThrow(() -> new RuntimeException("Can't get driver by id: " + id));
     }
 
     @Override
